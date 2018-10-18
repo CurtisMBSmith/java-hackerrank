@@ -19,6 +19,7 @@ public class Java1DArrayPart2 {
 
 	private static void solveProblem(final BufferedReader br, final String... args) throws IOException {
 		final int numTestCases = Integer.parseInt(br.readLine());
+		final String s1 = br.readLine();
 		final String s2 = br.readLine();
 
 		final List<Character> s1Chars = s1.chars().mapToObj(i -> Character.valueOf((char) i))
